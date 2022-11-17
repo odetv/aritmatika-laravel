@@ -75,7 +75,7 @@
     <footer>
         <div class="w-auto mt-24 border-t border-slate-500 bg-slate-800">
             <div class="flex items-center justify-center mb-5 mt-5">
-                <a href="https://github.com/odetv/variabel-aritmatika" target="_blank"
+                <a href="https://github.com/odetv/deret-aritmatika-laravel" target="_blank"
                     class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-white text-white transition duration-300 ease-in-out hover:bg-primary hover:opacity-50">
                     <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg">
