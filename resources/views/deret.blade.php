@@ -10,14 +10,14 @@
 <body>
     <header>
         <div class="m-6 mt-10 mb-10 text-center font-bold text-3xl uppercase">
-            <h1>Website Deret Bilangan</h1>
+            <h1>Perhitungan Deret Bilangan</h1>
         </div>
     </header>
     <div class="content">
         <form action="" method="post" class="m-3 p-6 border rounded-lg">
             @csrf
             <div class="">
-                <h1 class="pr-[25px] lg:text-start text-center mb-6 font-semibold">** Masukkan bilangan yang akan dihitung **</h1>
+                <h1 class="pr-[25px] lg:text-start text-center font-semibold mb-6">** Masukkan bilangan yang akan dihitung **</h1>
                 <div class="flex items-center mb-3">
                     <h1 class="pr-[44px]">Input Bilangan 1</h1>
                     <input class="border rounded-md w-24 p-1" type="number" name="bil1" required />
@@ -30,12 +30,26 @@
                     <h1 class="pr-[25px]">Input Jumlah Index</h1>
                     <input class="border rounded-md w-24 p-1" type="number" name="jumlah" required />
                 </div>
-                <button
-                    class="mt-3 cursor-pointer px-4 py-2 text-base text-white bg-blue-500 rounded-md hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">
-                    Cek Hasil
-                </button>
-                <a href="/"
-                    class="mt-3 cursor-pointer px-4 py-2.5 text-base text-white bg-red-500 rounded-md hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">Reset</a>
+                <div class="flex">
+                    <div class="flex mr-2">
+                        <button
+                            class="mt-3 cursor-pointer px-4 py-2 text-base text-white bg-blue-500 rounded-md hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">
+                            Cek Hasil
+                        </button>
+                    </div>
+                    <div class="flex mr-2">
+                        <a href="/deret"
+                            class="mt-3 cursor-pointer px-4 py-2.5 text-base text-white bg-red-500 rounded-md hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">
+                            Reset
+                        </a>
+                    </div>
+                    <div class="flex mr-2">
+                    <a href="/"
+                        class="mt-3 cursor-pointer px-4 py-2.5 text-base text-white bg-slate-800 rounded-md hover:shadow-lg hover:opacity-50 transition duration-300 ease-in-out">
+                        Kembali
+                    </a>
+                    </div>
+                </div>
             </div>
         </form>
         <div class="m-3 p-6 border rounded-lg shadow-lg">
@@ -73,7 +87,7 @@
         </div>
     </div>
     <footer>
-        <div class="w-auto mt-24 border-t border-slate-500 bg-slate-800">
+        <div class="w-auto mt-44 border-t border-slate-500 bg-slate-800">
             <div class="flex items-center justify-center mb-5 mt-5">
                 <a href="https://github.com/odetv/deret-aritmatika-laravel" target="_blank"
                     class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-white text-white transition duration-300 ease-in-out hover:bg-primary hover:opacity-50">

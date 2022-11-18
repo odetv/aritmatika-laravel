@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class AritmatikaController extends Controller
+class DeretController extends Controller
 {
     public function index(request $request){
         $bil1=0;
         $bil2=0;
         $jumlah=0;
         $deret=[0];
-        return view('welcome', compact('deret'));
+        return view('deret', compact('deret'));
     }
     public function hitung(request $request){
         $data = $request->all();
@@ -26,6 +26,6 @@ class AritmatikaController extends Controller
             $deret[$i+1]=$deret[$i-1]+$deret[$i];
         }
         // dd($deret);
-        return view('welcome', compact('deret'));
+        return view('deret', compact('deret'));
     }
 }
