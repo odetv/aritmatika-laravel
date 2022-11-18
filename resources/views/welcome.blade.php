@@ -84,7 +84,7 @@
                     </svg>
                 </a>
             </div>
-            <p class="text-[0.65rem] text-slate-300 text-center">Copyright ©2022 Trivili | All Rights Reserved.</p>
+            <p class="text-[0.65rem] text-slate-300 text-center">Copyright ©2022 | All Rights Reserved.</p>
             <p class="text-[0.65rem] text-slate-500 text-center pb-5">Develop by 🤎odetv</p>
         </div>
     </footer>
